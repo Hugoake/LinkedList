@@ -4,6 +4,7 @@
 package genericLinkedList
 
 import (
+        "fmt"
         "github.com/pkg/errors"
 )
 
@@ -201,4 +202,4 @@ func (lst LinkedList) Healthy() bool {
     }
     // Everything seems good
     return true
-}
+}
